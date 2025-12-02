@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio – Denora Menezes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background: #fff;
+            color: #000;
+        }
+
+        
+        header {
+            background: #fff;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        nav a {
+            color: #000;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        
+        .portfolio-heading {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .portfolio-heading img {
+            width: 603px;
+            height: 231px;
+            object-fit: contain;
+        }
+
+       
+        .portfolio-container {
+            padding: 60px;
+            display: flex;
+            gap: 70px;
+            align-items: flex-start;
+        }
+
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 342px);
+            gap: 35px;
+        }
+
+        .project-grid a {
+            display: block;
+        }
+
+        .project-grid img {
+            width: 342px;
+            height: 342px;
+            object-fit: cover;
+            background: #ddd;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        
+        .text-block {
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .text-heading {
+            width: 348px;
+            height: 29px;
+            font-family: "Kalnia", serif;
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .text-paragraph {
+            width: 372px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        @media(max-width: 1200px) {
+            .portfolio-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .text-block {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="about you page.html">ABOUT</a>
+        <a href="portfolio design.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="blog.html">BLOG</a>
+    </nav>
+</header>
+
+
+<div class="portfolio-heading">
+    <img src="sy.photos/portfoilio design.jpg" alt="Portfolio Design Heading">
+</div>
+
+
+<section class="portfolio-container">
+
+    
+    <div class="project-grid">
+
+        <a href="illustration.html">
+            <img src="sy.photos/illustrations.PNG" alt="Illustrations Project">
+        </a>
+
+        <a href="book.html">
+            <img src="sy.photos/book.jpeg" alt="Book Project">
+        </a>
+
+        <a href="instagram.html">
+            <img src="sy.photos/instagram.jpg" alt="Instagram Ad Project">
+        </a>
+
+        <a href="poster.html">
+            <img src="sy.photos/posters.PNG" alt="Posters Project">
+        </a>
+        
+        <a href="Brand.html">
+            <img src="sy.photos/branding.jpeg" alt="Branding Project">
+        </a>
+        
+        <a href="invitation.html">
+            <img src="sy.photos/invitations.PNG" alt="Invitations Project">
+        </a>
+
+    </div>
+
+    
+    <div class="text-block">
+        <div class="text-heading">Design. Feel. Connect.</div>
+
+        <div class="text-paragraph">
+            Explore my collection of projects—each one shaped by curiosity, 
+            storytelling, and thoughtful design.<br><br>
+            From branding to campaigns, every piece reflects how I think, 
+            create, and solve through design.<br><br>
+            Dive in to see how ideas transform into visual experiences.
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
+
+

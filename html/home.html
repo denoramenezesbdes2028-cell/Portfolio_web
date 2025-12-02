@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Denora Menezes Creative Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin: 0; font-family: 'Georgia', serif; color: #000; background: #fff; }
+        header { background: #fff; padding: 12px 0; border-bottom: 1px solid #eee; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 40px; font-size: 16px; font-weight: 500; }
+        nav a { color: #000; text-decoration: none; letter-spacing: 1px; }
+
+        
+        .hero { display: flex; height: 100vh; }
+
+       
+        .single-portrait {
+            width: 40%;
+            height: 100%;
+        }
+        .single-portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+       
+        .hero-main {
+            position: relative;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-main img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-text {
+            position: absolute; 
+            left: 50%; 
+            top: 45%; 
+            transform: translateX(-50%);
+            color: #fff; 
+            font-size: 3vw; 
+            font-weight: bold; 
+            letter-spacing: 2px; 
+            text-align: center;
+        }
+        .hero-desc {
+            position: absolute; 
+            left: 50%; 
+            bottom: 8%; 
+            transform: translateX(-50%);
+            font-size: 1.05vw; 
+            color: #fff; 
+            width: 70%;
+            text-align: center;
+        }
+
+       
+        .frame-2 {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   
+            align-items: center;
+            text-align: center;
+            padding-top: 120px; 
+        }
+        .frame-2-text h1 {
+            font-size: 4vw;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 0;
+            color: black;
+        }
+
+        .three-columns {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            color: black;
+        }
+        .col-text {
+            width: 230px;
+            height: 350px;
+            font-size: 1.1vw;
+            line-height: 1.45;
+            color: black;
+            text-align: left;
+        }
+
+      
+        .black-section { 
+            background: #000; 
+            color: #fff; 
+            padding: 45px 0 40px 0; 
+            text-align: center; 
+        }
+        .black-section h2 { 
+            font-size: 2.6vw; 
+            margin-bottom: 40px; 
+            font-weight: bold; 
+            letter-spacing: 2px; 
+        }
+
+        .portfolio-row { 
+            display: flex; 
+            justify-content: center; 
+            gap: 45px; 
+            margin: 20px auto 0 auto; 
+        }
+
+      
+        .portfolio-item { 
+            width: 360px;     
+            height: 360px;     
+            background: none;  
+            box-sizing: border-box; 
+        }
+        .portfolio-item img { 
+            width: 100%; 
+            height: 100%;
+            object-fit: cover;
+            border-radius: 4px; 
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="about you page.html">ABOUT</a>
+        <a href="portfolio design.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="blog.html">BLOG</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div class="single-portrait">
+        <img src="sy.photos/collage.jpg" alt="Portrait">
+    </div>
+
+    <div class="hero-main">
+        <img src="sy.photos/wallpaper.jpg" alt="Main Face">
+
+        <div class="hero-text">DENORA<br>MENEZES</div>
+
+        <div class="hero-desc">
+            Graphic Designer • Branding • Visual Identity • Communication • Creative Strategy
+        </div>
+    </div>
+
+</section>
+
+
+<section class="frame-2" style="background-image: url('sy.photos/tiger\ bg.jpg');">
+
+    <div class="frame-2-text">
+        <h1>A CREATIVE STUDIO</h1>
+    </div>
+
+    <div class="three-columns">
+        <div class="col-text">
+            The creative space is constantly evolving. Whether you’re building a brand, 
+            expanding your business, or simply trying to bring your vision to life—you 
+            shouldn’t have to do it all. You should be leading with ideas, not getting 
+            lost in the details.
+        </div>
+
+        <div class="col-text">
+            That’s where I come in. As a designer, I bring clarity and consistency, transforming 
+            concepts into visuals that connect. From branding and visual identity to communication 
+            design, I handle the details so your brand speaks with confidence.
+        </div>
+
+        <div class="col-text">
+            I help passion-driven businesses and creators translate their vision into intentional, 
+            impactful design. Strategy meets storytelling, infused with visuals that resonate.
+            You’ve built something meaningful. Now it’s time to make it unforgettable.
+        </div>
+    </div>
+
+</section>
+
+<section class="black-section">
+    <h2>CRAFTING, CAPTURING,<br>AND COMMUNICATING YOUR IDEA.</h2>
+
+    <div class="portfolio-row">
+        <div class="portfolio-item">
+            <img src="sy.photos/chapel.jpg">
+        </div>
+
+        <div class="portfolio-item">
+            <img src="sy.photos/designer.jpg">
+        </div>
+
+        <div class="portfolio-item">
+            <img src="sy.photos/typo.jpg">
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
